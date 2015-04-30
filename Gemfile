@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 # Bootstrap Gem
 gem 'bootstrap-sass', '~> 3.3.0'
+gem 'simple_form'
 gem 'autoprefixer-rails'
 
 # Devise Gem
