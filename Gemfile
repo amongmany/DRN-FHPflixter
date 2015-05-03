@@ -41,8 +41,8 @@ gem 'carrierwave'
 # Figaro Gem
 gem 'figaro'
 
-# Fog Gem
-gem "fog", "~> 1.3.1"
+# Carrierwave AWS Gem
+gem 'carrierwave-aws'
 
 # Mini Magick Gem
 gem 'mini_magick'
