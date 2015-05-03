@@ -35,6 +35,15 @@ gem 'autoprefixer-rails'
 # Devise Gem
 gem 'devise', '>= 3.2.4'
 
+# CarrierWave Gem for Image Uploads
+gem 'carrierwave'
+
+# Figaro Gem
+gem 'figaro'
+
+# Fog Gem
+gem "fog", "~> 1.3.1"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
