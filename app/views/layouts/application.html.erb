@@ -5,6 +5,17 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
+  <!-- FROM VIDEOJS -->
+  <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<style type="text/css">
+  .vjs-default-skin .vjs-play-progress,
+  .vjs-default-skin .vjs-volume-level { background-color: #747575 }
+  .vjs-default-skin .vjs-control-bar { font-size: 60% }
+  .video-js {padding-top: 56.25%}
+  .vjs-fullscreen {padding-top: 0px}
+</style>
 </head>
 <body>
 
