@@ -15,3 +15,11 @@
 //= require jquery_ujs
 
 //= require_tree .
+
+//= require jquery-ui
+
+$(function() {
+  console.log("Hello World");
+  var special = $("#special");
+  console.log(special);
+});

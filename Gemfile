@@ -53,6 +53,9 @@ gem 'stripe'
 # Ranked Model Gem
 gem 'ranked-model'
 
+# JQuery UI
+gem 'jquery-ui-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
